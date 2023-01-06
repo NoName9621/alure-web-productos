@@ -1,0 +1,29 @@
+header {
+    background-color: #bbb;
+    padding: 20px 0;
+}
+
+.caja-header {
+    width: 70%;
+    position: relative; /* posicionanmiento relativo a la posicion absoluta de nav */
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute; /* toma como referencia el viewport para posicionarse */
+    top: 110px;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000;
+    font-size: 22px;
+    font-weight: bold;
+}
