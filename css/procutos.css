@@ -52,7 +52,7 @@ nav a:hover {
 .productos li:hover {
     border-color: #c78c19;
     border-width: 4px;
-    transition: all .5s;
+    /* transition: all .5s; */
 }
 .productos li:active {
     border-color: #088c19;
@@ -74,4 +74,16 @@ nav a:hover {
     font-size: 20px;
     font-weight: 700;
     margin-top: 10px;
+}
+
+footer {
+    text-align: center;
+    background-image: url(/img/bg.jpg);
+    padding: 30px;
+}
+
+.copyright {
+    color: #fff;
+    font-size: 13px;
+    margin-top: 20px;
 }
