@@ -4,7 +4,7 @@ header {
 }
 
 .caja-header {
-    width: 70%;
+    width: 940px;
     position: relative; /* posicionanmiento relativo a la posicion absoluta de nav */
     margin: 0 auto;
 }
@@ -29,7 +29,7 @@ nav a {
 }
 
 .productos {
-    width: 70%;
+    width: 940px;
     margin: 0 auto;
     padding: 50px;
 }
@@ -38,6 +38,12 @@ nav a {
     display: inline-block;
     text-align: center;
     width: 30%; /* le damos un tamaño de 30% a cada uno de los elementos, el 10% restante es para los espacios */
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #000;
+    /* border-bottom-width: 12px; */
+    border-radius: 5px 35px 35px;
 }
 
 .productos h2 {
